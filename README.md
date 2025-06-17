@@ -1,4 +1,4 @@
-# 🔐 Simple Encryption Tool
+# Simple Encryption Tool
 
 A Python CLI tool for encrypting and decrypting text using various algorithms. 
 Currently supports :
