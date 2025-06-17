@@ -4,7 +4,7 @@ This is a simple command-line tool to encrypt and decrypt messages using the **A
 
 ---
 
-## 🔤 What is the Atbash Cipher?
+##  What is the Atbash Cipher?
 
 The Atbash cipher replaces each letter in the alphabet with its mirror image:
 - `A ↔ Z`
