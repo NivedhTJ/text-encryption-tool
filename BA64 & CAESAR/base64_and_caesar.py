@@ -1,18 +1,22 @@
+# Import the base64 module for encoding/decoding
 import base64
 
 
+# Function to encode a string into Base64
 def base64_encode(text):
     encoded_bytes = base64.b64encode(text.encode())  # bytes
     encoded_string = encoded_bytes.decode()  # convert bytes to string
     return encoded_string
 
 
+# Function to decode a Base64-encoded string
 def base64_decode(text):
     decoded_bytes = base64.b64decode(text.encode())
     decoded_string = decoded_bytes.decode()
     return decoded_string
 
 
+# Function to encrypt text using Caesar cipher with a given shift
 def caesar_encrypt(text, shift):
     encrypted = ""
     for char in text:
@@ -27,6 +31,7 @@ def caesar_encrypt(text, shift):
     return encrypted
 
 
+# Caesar decryption is just encryption with negative shift
 def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
 
