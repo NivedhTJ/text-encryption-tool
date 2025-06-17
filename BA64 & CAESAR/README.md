@@ -3,12 +3,12 @@ A beginner-friendly command-line tool that provides two basic types of encryptio
 - **Caesar Cipher** (Encrypt and Decrypt)
 - **Base64 Encoding** and **Decoding**
 
-## 📦 Features
+##  Features
 
-- 🔁 Caesar Cipher with customizable shift value
-- 📤 Base64 Encoding (binary to ASCII)
-- 📥 Base64 Decoding
-- 🧾 Simple interactive menu
+-  Caesar Cipher with customizable shift value
+-  Base64 Encoding (binary to ASCII)
+-  Base64 Decoding
+-  Simple interactive menu
 
 ### Caesar Cipher
 A substitution cipher where each letter is shifted by a fixed number of positions in the alphabet.
