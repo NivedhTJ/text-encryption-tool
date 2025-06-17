@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Atbash Cipher Tool (Python)
+#  Atbash Cipher Tool (Python)
 
 This is a simple command-line tool to encrypt and decrypt messages using the **Atbash Cipher** — a classic substitution cipher where each letter is mapped to its reverse in the alphabet.
 
