@@ -1,7 +1,7 @@
 A beginner-friendly command-line tool that provides two basic types of encryption:
 
 - **Caesar Cipher** (Encrypt and Decrypt)
-- **Base64 Encoding** and **Decoding*
+- **Base64 Encoding** and **Decoding**
 
 ## 📦 Features
 
