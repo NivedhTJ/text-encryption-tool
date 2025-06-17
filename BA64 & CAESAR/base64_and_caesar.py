@@ -4,15 +4,19 @@ import base64
 
 # Function to encode a string into Base64
 def base64_encode(text):
-    encoded_bytes = base64.b64encode(text.encode())  # bytes
-    encoded_string = encoded_bytes.decode()  # convert bytes to string
+    encoded_bytes = base64.b64encode(
+        text.encode()
+    )  # Convert string to bytes and encode
+    encoded_string = encoded_bytes.decode()  # Convert encoded bytes back to string
     return encoded_string
 
 
 # Function to decode a Base64-encoded string
 def base64_decode(text):
-    decoded_bytes = base64.b64decode(text.encode())
-    decoded_string = decoded_bytes.decode()
+    decoded_bytes = base64.b64decode(
+        text.encode()
+    )  # Convert Base64 string to bytes and decode
+    decoded_string = decoded_bytes.decode()  # Convert decoded bytes back to string
     return decoded_string
 
 
